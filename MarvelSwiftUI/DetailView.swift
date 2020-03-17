@@ -10,14 +10,12 @@ import SwiftUI
 
 struct DetailView: View {
     let character: MarvelCharacter
-    let image: LoadableImage
     
     var body: some View {
         ScrollView {
             VStack(spacing: 5) {
-                image
+                LoadableImage(with: character.imageURL)
                     .frame(width: 300, height: 300)
-                    .background(Color.red)
                 
                 Text(character.description)
                     .font(Font.system(size: 12))
@@ -46,7 +44,6 @@ struct DetailView_Previews: PreviewProvider {
         DetailView(character: MarvelCharacter(name: "Steve",
                                               description: "Description",
                                               thumbnail: Thumbnail(path: "a", thumbnailExtension: .jpg),
-                                              urls: []),
-                   image: LoadableImage(with: API.charactersURL))
+                                              urls: []))
     }
 }
