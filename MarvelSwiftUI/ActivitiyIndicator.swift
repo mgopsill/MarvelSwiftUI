@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/* Provides the loading animation */
 struct ActivityIndicator: UIViewRepresentable {
     let style: UIActivityIndicatorView.Style
     

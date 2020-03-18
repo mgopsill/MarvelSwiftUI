@@ -21,7 +21,6 @@ struct DataClass: Codable {
 }
 
 struct MarvelCharacter: Codable {
-    let id = UUID()
     let name, description: String
     let thumbnail: Thumbnail
     let urls: [MarvelURL]

@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1E1F6124212D6400AD1E72 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1F6024212D6400AD1E72 /* ContentViewModel.swift */; };
-		4D1E1F6324212D8A00AD1E72 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1F6224212D8A00AD1E72 /* ImageLoader.swift */; };
-		4D1E1F6524212E8D00AD1E72 /* LoadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1F6424212E8D00AD1E72 /* LoadableImage.swift */; };
 		4D1E1F6724212EC400AD1E72 /* ActivitiyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1F6624212EC400AD1E72 /* ActivitiyIndicator.swift */; };
 		4D4BA8392420D9FC006445D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BA8382420D9FC006445D0 /* AppDelegate.swift */; };
 		4D4BA83B2420D9FC006445D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BA83A2420D9FC006445D0 /* SceneDelegate.swift */; };
@@ -17,15 +14,11 @@
 		4D4BA83F2420D9FE006445D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4BA83E2420D9FE006445D0 /* Assets.xcassets */; };
 		4D4BA8422420D9FE006445D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4BA8412420D9FE006445D0 /* Preview Assets.xcassets */; };
 		4D4BA8452420D9FE006445D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4BA8432420D9FE006445D0 /* LaunchScreen.storyboard */; };
-		4D4BA84D2420DA24006445D0 /* MarvelURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BA84C2420DA24006445D0 /* MarvelURLs.swift */; };
+		4D4BA84D2420DA24006445D0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BA84C2420DA24006445D0 /* API.swift */; };
 		4D4BA84F2420DA2D006445D0 /* CharacterResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4BA84E2420DA2D006445D0 /* CharacterResponseModel.swift */; };
-		4D8BA6652421161900AA3547 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BA6642421161900AA3547 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D1E1F6024212D6400AD1E72 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		4D1E1F6224212D8A00AD1E72 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		4D1E1F6424212E8D00AD1E72 /* LoadableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableImage.swift; sourceTree = "<group>"; };
 		4D1E1F6624212EC400AD1E72 /* ActivitiyIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyIndicator.swift; sourceTree = "<group>"; };
 		4D4BA8352420D9FC006445D0 /* MarvelSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4BA8382420D9FC006445D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,9 +28,8 @@
 		4D4BA8412420D9FE006445D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D4BA8442420D9FE006445D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D4BA8462420D9FE006445D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D4BA84C2420DA24006445D0 /* MarvelURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelURLs.swift; sourceTree = "<group>"; };
+		4D4BA84C2420DA24006445D0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4D4BA84E2420DA2D006445D0 /* CharacterResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterResponseModel.swift; sourceTree = "<group>"; };
-		4D8BA6642421161900AA3547 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,16 +62,12 @@
 		4D4BA8372420D9FC006445D0 /* MarvelSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				4D4BA84C2420DA24006445D0 /* MarvelURLs.swift */,
+				4D4BA84C2420DA24006445D0 /* API.swift */,
 				4D4BA84E2420DA2D006445D0 /* CharacterResponseModel.swift */,
 				4D4BA8382420D9FC006445D0 /* AppDelegate.swift */,
 				4D4BA83A2420D9FC006445D0 /* SceneDelegate.swift */,
 				4D4BA83C2420D9FC006445D0 /* ContentView.swift */,
 				4D1E1F6624212EC400AD1E72 /* ActivitiyIndicator.swift */,
-				4D1E1F6424212E8D00AD1E72 /* LoadableImage.swift */,
-				4D1E1F6024212D6400AD1E72 /* ContentViewModel.swift */,
-				4D1E1F6224212D8A00AD1E72 /* ImageLoader.swift */,
-				4D8BA6642421161900AA3547 /* DetailView.swift */,
 				4D4BA83E2420D9FE006445D0 /* Assets.xcassets */,
 				4D4BA8432420D9FE006445D0 /* LaunchScreen.storyboard */,
 				4D4BA8462420D9FE006445D0 /* Info.plist */,
@@ -167,15 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1E1F6524212E8D00AD1E72 /* LoadableImage.swift in Sources */,
-				4D4BA84D2420DA24006445D0 /* MarvelURLs.swift in Sources */,
-				4D8BA6652421161900AA3547 /* DetailView.swift in Sources */,
+				4D4BA84D2420DA24006445D0 /* API.swift in Sources */,
 				4D4BA8392420D9FC006445D0 /* AppDelegate.swift in Sources */,
 				4D1E1F6724212EC400AD1E72 /* ActivitiyIndicator.swift in Sources */,
-				4D1E1F6124212D6400AD1E72 /* ContentViewModel.swift in Sources */,
 				4D4BA84F2420DA2D006445D0 /* CharacterResponseModel.swift in Sources */,
 				4D4BA83B2420D9FC006445D0 /* SceneDelegate.swift in Sources */,
-				4D1E1F6324212D8A00AD1E72 /* ImageLoader.swift in Sources */,
 				4D4BA83D2420D9FC006445D0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
